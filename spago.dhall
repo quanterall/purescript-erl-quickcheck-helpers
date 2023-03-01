@@ -1,4 +1,4 @@
-{ name = "erl-sets"
+{ name = "erl-quickcheck-helpers"
 , dependencies =
   [ "console"
   , "effect"
