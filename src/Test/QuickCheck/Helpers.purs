@@ -7,11 +7,11 @@ import Prelude
 
 import Data.Either (Either(..))
 import Data.Foldable (foldl)
-import Effect.Class.Console as Console
 import Effect (Effect)
+import Effect.Class.Console as Console
+import Effect.Exception as Exception
 import Test.QuickCheck (Result(..), class Testable)
 import Test.QuickCheck as QuickCheck
-import Effect.Exception as Exception
 
 newtype Properties = Properties (Array Result)
 

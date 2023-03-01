@@ -1,7 +1,6 @@
 { name = "erl-sets"
 , dependencies =
-  [ "assert"
-  , "console"
+  [ "console"
   , "effect"
   , "either"
   , "erl-test-eunit"
