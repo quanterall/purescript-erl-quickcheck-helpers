@@ -1,5 +1,5 @@
 module Test.QuickCheck.Helpers
-  ( Properties
+  ( Properties(..)
   , property
   ) where
 
